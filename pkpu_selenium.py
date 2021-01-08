@@ -26,7 +26,7 @@ while count <= 34:
     count += 1
 
 print(jsonArr)
-out_file = open('data.json', 'w')
+out_file = open('data/data.json', 'w')
 json.dump(jsonArr, out_file)
 out_file.close()
 
